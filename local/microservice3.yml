@@ -1,0 +1,14 @@
+server:
+  port: ${PORT:8083}
+
+spring:
+  application:
+    name: microservice3
+
+info:
+  app:
+   name: microservice3
+   description: Microservice 3 testing Eureka
+   version: 1.0.0
+
+message: Configuracion parametrizada de microservicio 3

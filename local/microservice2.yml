@@ -1,0 +1,14 @@
+server:
+  port: ${PORT:8082}
+
+spring:
+  application:
+    name: microservice2
+
+info:
+  app:
+   name: microservice2
+   description: Microservice 2 testing Eureka
+   version: 1.0.0
+
+message: Configuracion parametrizada de microservicio 2

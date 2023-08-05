@@ -1,4 +1,0 @@
-server:
-  port: 8082
-
-message: Configuracion parametrizada de microservicio 2
