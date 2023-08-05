@@ -1,5 +1,4 @@
-server
+server:
   port: ${PORT: 8081}
-
 
 message: Configuracion parametrizada de microservicio 1
