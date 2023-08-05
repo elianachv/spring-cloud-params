@@ -1,0 +1,14 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+    enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: serviceregistry,health,info
+  info:
+    env:
+      enabled: true

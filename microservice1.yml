@@ -1,4 +1,14 @@
 server:
   port: ${PORT:8081}
 
+spring:
+  application:
+    name: microservice1
+
+info:
+  app:
+   name: microservice1
+   description: Microservice 1 testing Eureka
+   version: 1.0.0
+
 message: Configuracion parametrizada de microservicio 1
