@@ -1,6 +1,8 @@
 spring:  
   cloud:
       gateway:
+        default-filters:
+          - name: TestFilter
         routes:
           - id: microservice1
             uri: http://localhost:8082
